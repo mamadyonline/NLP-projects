@@ -22,4 +22,7 @@ Codes to showcase my NLP learning/mastering journey
 
 * Sentiment analysis is about analysing a text and assigning it a sentiment, which can either be on a spectrum from positive to negative emotions, or categorical (positive, negative, neutral).
 * When it's about a spectrum of emotions, we would go for a regression machine learning model, from the most positive (say 1) to the most negative (say 0), and everything in between going through neutral (say 0.5). Whereas when it's about classifying the text as positive, negative or neutral, we would build a classifier, supervised machine learning model.
-* In this project, I'll use the logistic regression classifier model
+* In this project, I'll use the logistic regression classifier model trained on different features
+  * First feature processing. Extract three features: # of positive words in a tweet, # of negative words in a tweet and # of neutral words in a tweet
+  * Train the logistic regression on these features and test it on the valid/test data
+  * Train another ML model to compare with the logistic regression model
